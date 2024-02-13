@@ -14,7 +14,7 @@ const horas = Math.floor(segundos / 3600);
 const resto = (segundos % 3600);
 
 //calcular os minutos
-const minutos = Math.floor(segundos / 60)
+const minutos = Math.floor(resto / 60)
 
 //calcular os segundos restantes
 const resto_seg = (segundos % 60)
